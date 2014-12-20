@@ -1,5 +1,5 @@
 let element_from_array t = 
-	let n = Random.int 100 in
+	let n = Random.int max_int in
 	let longueur = Array.length t in
 		t.(n mod longueur)
 		
