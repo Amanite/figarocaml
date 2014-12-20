@@ -69,13 +69,6 @@ let conclusion4() =
 let conclusions = [|conclusion1;conclusion2;conclusion3;conclusion4|] ;;
 
 Random.self_init() ;;
-
-	
-let element_from_array t = 
-	let n = Random.int 100 in
-	let longueur = Array.length t in
-		t.(n mod longueur)
-		
 		
 let print_intro() = 
 	(element_from_array intros) ()
